@@ -19,6 +19,6 @@ git push
 
 */
 
-Route::get('/', function () {
+Route::get('/register', function () {
     return inertia('Auth/Register');
 });
