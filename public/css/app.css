@@ -512,6 +512,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-6xl {
   max-width: 72rem;
 }
+.max-w-xl {
+  max-width: 36rem;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -553,6 +556,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-t {
   border-top-width: 1px;
 }
+.border-r {
+  border-right-width: 1px;
+}
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
@@ -560,6 +566,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -612,11 +622,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-medium {
   font-weight: 500;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 .leading-7 {
   line-height: 1.75rem;
 }
 .leading-5 {
   line-height: 1.25rem;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 .text-gray-200 {
   --tw-text-opacity: 1;

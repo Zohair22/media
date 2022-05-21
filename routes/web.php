@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,4 @@ git push
 
 */
 
-Route::get('/register', function () {
-    return inertia('Auth/Register');
-});
+Route::get('/register', [UserController::class, 'create']);
