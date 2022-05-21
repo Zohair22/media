@@ -19,5 +19,7 @@ git push
 
 
 */
-
-Route::get('/register', [UserController::class, 'create']);
+Route::middleware('guest')->group(function (){
+    Route::get('/register', [UserController::class, 'create'])->name('register');
+    Route::get('/login', [UserController::class, 'login'])->name('login');
+});

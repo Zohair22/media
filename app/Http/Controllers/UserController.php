@@ -19,6 +19,11 @@ class UserController extends Controller
         //
     }
 
+    public function login() : \Inertia\Response
+    {
+        return Inertia::render('Auth/Login');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
