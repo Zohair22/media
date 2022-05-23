@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
     <script src="{{ mix('/js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app1.js') }}"></script>
     @inertiaHead
 </head>
 <body>
 @inertia
+
 </body>
 </html>

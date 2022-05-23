@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,9 +30,10 @@ Route::middleware('guest')->group(function (){
 });
 
 Route::middleware('auth')->group(function (){
-    Route::get('/home', function (){
-        return inertia('Home');
-    })->name('home');
-
     Route::get('/logout', [UserController::class, 'logout'])->name('logout');
+
+    Route::get('/', [PostController::class, 'index'])->name('home');
+
+    Route::post('/storePost', [PostController::class, 'store'])->name('storePost');
+
 });
