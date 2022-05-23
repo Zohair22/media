@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-4 gap-5">
+    <div class="grid grid-cols-5 gap-5">
         <div v-for="post in posts">
             <PostGrid :post="post" />
         </div>
