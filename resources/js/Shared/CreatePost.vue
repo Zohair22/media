@@ -1,5 +1,6 @@
 <template>
-    <div class="max-w-xl mx-auto border border-2 mt-6 p-5 rounded-3xl shadow-xl">
+    <div
+        class="max-w-xl mx-auto border border-2 shadow-purple-400 border-purple-400 mt-12 p-5 rounded-3xl shadow-lg">
         <form @submit.prevent="submit" enctype="multipart/form-data">
             <div>
                     <textarea
@@ -20,7 +21,7 @@
             </div>
             <div class="mt-6 text-right">
                 <button
-                    class="px-8 py-1 tracking-wide text-white transition-colors duration-700 transform bg-purple-700 rounded-3xl hover:bg-purple-600 focus:outline-none focus:bg-purple-600">
+                    class="px-8 py-1 shadow-lg shadow-purple-400 tracking-wide text-white transition-colors duration-700 transform bg-purple-700 rounded-3xl hover:bg-purple-600 focus:outline-none focus:bg-purple-600">
                     Share
                 </button>
             </div>

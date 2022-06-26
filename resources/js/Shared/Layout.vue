@@ -2,7 +2,7 @@
     <Head>
         <title>Media</title>
     </Head>
-    <nav class="border-purple-300 px-2 sm:px-4 py-2.5 bg-purple-500 text-rose-50">
+    <nav class="border-purple-300 shadow-lg shadow-purple-400 px-2 sm:px-4 py-2.5 bg-purple-500 text-rose-50">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="/" class="flex items-center hover:text-purple-900">
                 <img src="/storage/images.png" class="mr-3 h-6 sm:h-9 rounded-full" alt="Media Logo">

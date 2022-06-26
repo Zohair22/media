@@ -16,7 +16,7 @@ class PostController extends Controller
      */
     public function index() : Response
     {
-        $posts = Post::latest()->take(5)->get();
+        $posts = Post::latest()->take(6)->get();
 //        dd($posts);
         return Inertia::render('Home', compact('posts'));
     }

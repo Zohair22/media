@@ -200,7 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "max-w-xl mx-auto border border-2 mt-6 p-5 rounded-3xl shadow-xl"
+  "class": "max-w-xl mx-auto border border-2 shadow-purple-400 border-purple-400 mt-12 p-5 rounded-3xl shadow-lg"
 };
 var _hoisted_2 = {
   "class": "mt-6"
@@ -209,7 +209,7 @@ var _hoisted_2 = {
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-6 text-right"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "px-8 py-1 tracking-wide text-white transition-colors duration-700 transform bg-purple-700 rounded-3xl hover:bg-purple-600 focus:outline-none focus:bg-purple-600"
+  "class": "px-8 py-1 shadow-lg shadow-purple-400 tracking-wide text-white transition-colors duration-700 transform bg-purple-700 rounded-3xl hover:bg-purple-600 focus:outline-none focus:bg-purple-600"
 }, " Share ")], -1
 /* HOISTED */
 );
@@ -270,21 +270,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-purple-400 py-5 px-4 rounded-3xl mb-"
+  "class": "bg-purple-400 py-5 px-4 rounded-3xl shadow-lg shadow-purple-400"
 };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = ["textContent"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: 'storage/' + $props.post.photo,
-    "class": "rounded-full",
+    "class": "rounded-3xl w-full mx-auto max-h-72",
     alt: "",
     srcset: ""
   }, null, 8
   /* PROPS */
   , _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     textContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.post.caption),
-    "class": "text-center mt-2"
+    "class": "text-center text-lg text-white uppercase font-bold mt-2"
   }, null, 8
   /* PROPS */
   , _hoisted_3)]);
@@ -305,7 +305,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "grid grid-cols-5 gap-5"
+  "class": "grid grid-cols-3 gap-5"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.posts, function (post) {
