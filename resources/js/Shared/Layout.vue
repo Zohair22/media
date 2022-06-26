@@ -30,20 +30,20 @@
                     </div>
                     <input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-purple-900 bg-purple-50 rounded-lg border border-purple-300 sm:text-sm focus:ring-purple-500 focus:border-purple-500 dark:bg-purple-700 dark:border-purple-600 dark:placeholder-purple-400 dark:text-white dark:focus:ring-purple-500 dark:focus:border-purple-500" placeholder="Search...">
                 </div>
-                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                    <li>
-                        <a href="#"
-                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 dark:text-purple-400 md:dark:hover:text-white dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">Home</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 md:dark:hover:text-white dark:text-purple-400 dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">About</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 dark:text-purple-400 md:dark:hover:text-white dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">Services</a>
-                    </li>
-                </ul>
+<!--                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 dark:text-purple-400 md:dark:hover:text-white dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">Home</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 md:dark:hover:text-white dark:text-purple-400 dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">About</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="block font-bold py-2 pr-4 pl-3 text-white border-b border-purple-100 hover:bg-purple-50 md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 dark:text-purple-400 md:dark:hover:text-white dark:hover:bg-purple-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-purple-700">Services</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
             </div>
         </div>
     </nav>

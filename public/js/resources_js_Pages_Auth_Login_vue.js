@@ -62,7 +62,7 @@ var _hoisted_2 = {
   "class": "relative flex flex-col justify-center min-h-screen overflow-hidden"
 };
 var _hoisted_3 = {
-  "class": "w-full p-6 m-auto bg-white border-t-4 border-purple-600 rounded-3xl shadow-xl border-top lg:max-w-lg"
+  "class": "w-full p-6 m-auto bg-white border-t-4 border-purple-600 rounded-3xl shadow-xl border-top max-w-xs lg:max-w-lg md:max-w-md sm:max-w-sm xs:max-w-2xl"
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
